@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/main", 
+    "pages/aboutus/main", 
+    "pages/user/main",
+    "pages/notice/main", 
+    "pages/society/main",
+    "pages/coach/main",
+    "pages/order/main",
+    "pages/test2/main",
+    "pages/photography/main",
+    "pages/upload/main",
+    "pages/test/main",
+    "pages/userData/main",
+    "pages/coachDetail/main",
+    "pages/scanCode/main",
+    "pages/logs/main",
+    "pages/counter/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position":"bottom",
+    "list": [{
+      "pagePath": "pages/index/main",
+      "text": "首页",
+      "iconPath":"/static/tab/yuedu.png",
+      "selectedIconPath":"/static/tab/yuedu_hl.png"
+    }, 
+    {
+      "pagePath": "pages/coach/main",
+      "text": "教练预约",
+      "iconPath":"/static/tab/orders.png",
+      "selectedIconPath":"/static/tab/orders-active.png"
+    }, 
+    {
+      "pagePath": "pages/society/main",
+      "text": "社交",
+      "iconPath":"/static/tab/orders.png",
+      "selectedIconPath":"/static/tab/orders-active.png"
+    }, 
+    {
+      "pagePath": "pages/user/main",
+      "text": "我",
+      "iconPath":"/static/tab/dianying.png",
+      "selectedIconPath":"/static/tab/dianying_hl.png"
+    }]
+  }
+}
